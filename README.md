@@ -19,7 +19,7 @@ The **`crypto_pipeline.py`** script:
 
 This function runs **every 10 minutes**, scheduled via **Apache Airflow**.
 
-![Airflow DAG](images/crypto_dag.png)
+![Airflow DAG](imgs/crypto_dag.png)
 
 ---
 
@@ -50,15 +50,4 @@ A **BigQuery dataset (`crypto_db`) and table (`crypto_tb`)** are created to stor
 ### **4. Data Analytics: Querying with BigQuery**
 Once the data is stored in **BigQuery**, SQL queries can be executed to analyze **cryptocurrency trends**.
 
-#### **Example Query:**
-The following SQL query retrieves the **average price and total supply** for each cryptocurrency:
-
-```sql
-SELECT 
-    symbol,
-    name,
-    AVG(current_price) AS avg_price,
-    AVG(total_supply) AS avg_total_supply
-FROM `airflow-data-pipeline-448107.crypto_db.crypto_tb`
-GROUP BY symbol, name
-ORDER BY avg_price DESC;
+![Query](imgs/BigQuery sql.png)
