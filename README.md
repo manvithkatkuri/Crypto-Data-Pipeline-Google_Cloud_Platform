@@ -51,3 +51,17 @@ A **BigQuery dataset (`crypto_db`) and table (`crypto_tb`)** are created to stor
 Once the data is stored in **BigQuery**, SQL queries can be executed to analyze **cryptocurrency trends**.
 
 ![Query](imgs/BigQuerysql.png)
+
+## **Key Features**
+✅ **Automated Pipeline** with **Apache Airflow**  
+✅ **Real-Time Data Extraction** from **CoinGecko API**  
+✅ **Cloud Storage & Processing** using **Google Cloud Storage**  
+✅ **Efficient Querying** with **BigQuery**  
+✅ **Interactive Dashboards** in **Power BI / Looker Studio**  
+
+---
+
+# **Tools & Technologies Used**
+
+CoinGecko API, Google Cloud Storage (GCS), Google BigQuery, Apache Airflow, Google Cloud Composer, Python, Pandas, Requests, SQL, Google Looker Studio, Power BI, GCSToBigQueryOperator, BigQueryCreateEmptyDatasetOperator, BigQueryCreateEmptyTableOperator, LocalFilesystemToGCSOperator, Google Cloud IAM, Google Cloud SDK, Apache Airflow CLI, Git, GitHub, Markdown.
+
