@@ -50,4 +50,4 @@ A **BigQuery dataset (`crypto_db`) and table (`crypto_tb`)** are created to stor
 ### **4. Data Analytics: Querying with BigQuery**
 Once the data is stored in **BigQuery**, SQL queries can be executed to analyze **cryptocurrency trends**.
 
-![Query](imgs/BigQuery sql.png)
+![Query](imgs/BigQuerysql.png)
