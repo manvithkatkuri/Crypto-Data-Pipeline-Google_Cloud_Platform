@@ -52,7 +52,7 @@ Once the data is stored in **BigQuery**, SQL queries can be executed to analyze 
 
 ![Query](imgs/BigQuerysql.png)
 
-## **Key Features**
+### **5. Key Features**
 ✅ **Automated Pipeline** with **Apache Airflow**  
 ✅ **Real-Time Data Extraction** from **CoinGecko API**  
 ✅ **Cloud Storage & Processing** using **Google Cloud Storage**  
@@ -61,7 +61,7 @@ Once the data is stored in **BigQuery**, SQL queries can be executed to analyze 
 
 ---
 
-# **Tools & Technologies Used**
+### **6. Tools & Technologies Used**
 
 CoinGecko API, Google Cloud Storage (GCS), Google BigQuery, Apache Airflow, Google Cloud Composer, Python, Pandas, Requests, SQL, Google Looker Studio, Power BI, GCSToBigQueryOperator, BigQueryCreateEmptyDatasetOperator, BigQueryCreateEmptyTableOperator, LocalFilesystemToGCSOperator, Google Cloud IAM, Google Cloud SDK, Apache Airflow CLI, Git, GitHub, Markdown.
 
